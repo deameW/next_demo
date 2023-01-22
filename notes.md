@@ -6,3 +6,16 @@
 
 - 原理
     根据_app.tsx入口文件中的内容匹配相应的组件
+
+
+
+coding技巧
+1. 在setState时可以使用解构赋值更方便。
+```
+    setForm({
+            ...form,
+            [name]: value,
+            });
+```
+
+
